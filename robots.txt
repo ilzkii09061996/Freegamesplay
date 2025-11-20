@@ -1,0 +1,23 @@
+# robots.txt for Free Unblocked Games
+# Allow all search engines to crawl all pages
+
+User-agent: *
+Allow: /
+
+# Disallow backup and temporary files
+Disallow: /index-clean.html
+Disallow: /*.bak$
+Disallow: /*.tmp$
+
+# Sitemap location
+Sitemap: https://bruscan.github.io/onlinegame/sitemap.xml
+
+# Special directives for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl-delay for polite crawling (optional, helps with server load)
+Crawl-delay: 1
